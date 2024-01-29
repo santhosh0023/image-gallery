@@ -1,0 +1,29 @@
+
+.title{
+  text-align: center;
+ 
+  
+ padding: 10px;
+ margin: 10px;
+ background-color:tan;
+ border: solid 2px skyblue;
+
+}
+.container{
+  display:grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 10px;
+  justify-content: center;
+  
+}
+hr{
+  width: 50%;
+  margin: 20px auto;
+}
+.container img{
+  height: 200px;
+  width: 120px;
+  border: black solid 2px;
+  
+
+}
